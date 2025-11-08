@@ -43,8 +43,3 @@ print(result)
 result = query(entity="John Doe", year=2024)
 print(result)
 
-# Bulk lookup
-entities = ["Entity1", "Entity2", "Entity3"]
-results = query(entities)
-for r in results:
-    print(r)
